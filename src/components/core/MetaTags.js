@@ -27,7 +27,7 @@ const MetaTags = ({
       <meta itemProp="description" content={description} />
       <meta
         itemProp="image"
-        content={`https://${DOMAIN}/socialTags/logo.png`}
+        content={`https://${DOMAIN}/socialTags/ogImage.png`}
       />
 
       {/* Twitter Card data */}
