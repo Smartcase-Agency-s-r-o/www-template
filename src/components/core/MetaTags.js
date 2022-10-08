@@ -31,7 +31,7 @@ const MetaTags = ({
       />
 
       {/* Twitter Card data */}
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta
