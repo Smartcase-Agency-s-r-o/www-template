@@ -34,6 +34,10 @@ const MetaTags = ({
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
+      <meta
+        property="twitter:image"
+        content={`https://${DOMAIN}/socialTags/twitterImage.png`}
+      />
 
       {/* Additional Meta Tags :
 
