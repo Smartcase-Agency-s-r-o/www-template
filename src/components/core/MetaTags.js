@@ -3,8 +3,8 @@ import Head from 'next/head';
 const MetaTags = ({
   siteName = 'www-template',
   title = siteName,
-  description = '',
-  keywords = [''],
+  description = 'Just template for website made by Smartcase Agency s.r.o.',
+  keywords = ['smartcase', 'template', 'website', 'made', 'by', 'alois'],
   ogType = 'website',
   noindex = false,
 }) => {
