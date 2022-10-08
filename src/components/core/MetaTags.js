@@ -8,6 +8,9 @@ const MetaTags = ({
   ogType = 'website',
   noindex = false,
 }) => {
+  const DOMAIN =
+    process.env.DOMAIN !== '' ? process.env.VERCEL_URL : process.env.DOMAIN;
+
   return (
     <Head>
       {/* Basic Meta Tags*/}
@@ -24,9 +27,7 @@ const MetaTags = ({
       <meta itemProp="description" content={description} />
       <meta
         itemProp="image"
-        content={`https:${
-          process.env.DOMAIN ?? process.env.VERCEL_URL
-        }/socialTags/logo.png`}
+        content={`https://${DOMAIN}/socialTags/logo.png`}
       />
 
       {/* Twitter Card data */}
@@ -46,9 +47,7 @@ const MetaTags = ({
       <meta property="og:type" content={ogType} />
       <meta
         property="og:image"
-        content={`https:${
-          process.env.DOMAIN ?? process.env.VERCEL_URL
-        }/socialTags/logo.png`}
+        content={`https://${DOMAIN}/socialTags/logo.png`}
       />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content={siteName} />
