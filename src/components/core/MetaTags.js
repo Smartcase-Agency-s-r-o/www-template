@@ -47,7 +47,7 @@ const MetaTags = ({
       <meta property="og:type" content={ogType} />
       <meta
         property="og:image"
-        content={`https://${DOMAIN}/socialTags/logo.png`}
+        content={`https://${DOMAIN}/socialTags/ogImage.png`}
       />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content={siteName} />
