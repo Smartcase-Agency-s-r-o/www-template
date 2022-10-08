@@ -77,18 +77,6 @@ const MetaTags = ({
         href="/favicons/safari-pinned-tab.svg"
         color="#d31212"
       />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="192x192"
-        href="/favicons/android-chrome-192x192.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="256x256"
-        href="/favicons/android-chrome-256x256.png"
-      />
       <meta name="apple-mobile-web-app-title" content={title} />
       <meta name="application-name" content={siteName} />
       <meta name="msapplication-TileColor" content="#ffffff" />
