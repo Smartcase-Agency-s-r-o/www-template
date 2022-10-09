@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { useEffect } from 'react';
 
-import * as gtag from '../../lib/gtag';
-import * as fbq from '../../lib/fpixel';
+import * as gtag from '/lib/gtag';
+import * as fbq from '/lib/fpixel';
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();
