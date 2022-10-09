@@ -22,8 +22,8 @@ const MetaTags = ({
   noindex = false,
 })
 ```
-
-Then you should import and render MetaTags on every page and there you can change defaults just by passing it like prop.
+#
+Then you should render MetaTags on every page and pass custom values as props.
 ```
 const Home = () => {
   return (
@@ -34,6 +34,7 @@ const Home = () => {
   );
 }
 ```
+
 **Don't forget** to generate favicons with [RealFaviconGenerator](https://realfavicongenerator.net/), upload them to the right place and change
 ``browserconfig.xml`` and ``site.webmanifest``.
 
