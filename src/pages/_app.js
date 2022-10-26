@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 
 import * as gtag from '/lib/gtag';
 import * as fbq from '/lib/fpixel';
+import Layout from '../components/layout';
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();
@@ -63,7 +64,9 @@ const MyApp = ({ Component, pageProps }) => {
           `,
         }}
       />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 };
